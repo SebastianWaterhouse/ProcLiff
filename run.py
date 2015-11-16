@@ -27,9 +27,9 @@ class tree(stuff):
   def microscope_return():
     print("Yep. The tree has cells all right.")
   def inspect_return():
-    print("By using pollen, trees reproduce sexually. They can also reproduce asexually through human intervention."
+    print("By using pollen, trees reproduce sexually. They can also reproduce asexually through human intervention.")
   def timelapse_return():
-    print("Over many years, this tree grew from a random seed stuck in the ground to a great, majestic, 30-foot tall behemoth of the natural world.
+    print("Over many years, this tree grew from a random seed stuck in the ground to a great, majestic, 30-foot tall behemoth of the natural world.")
   def checkwaste_return():
     print("When too much of it is built up, trees release excess oxygen.")
   def dnamap_return():
