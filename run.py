@@ -149,7 +149,7 @@ print("Check:Homeostasis")
 print("Map:DNA")
 print("Exit:Exit")
 print(" ")
-print("Use these commands by typing '[command] [target]'"
+print("Use these commands by typing '[command] [target]'")
 print(" ")
 
 while 1:
