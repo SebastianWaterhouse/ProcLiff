@@ -85,7 +85,7 @@ class rock(stuff):
   def dnamap_return():
     print("It's a rock. It doesn't have dna.")
 
-nouns = {"porcupine":porcup, "tree":tree, "thing":myster, "rock":rock]
+nouns = {"porcupine":porcup, "tree":tree, "thing":myster, "rock":rock}
 
 class commands(Object):
   name = "null"
@@ -128,7 +128,7 @@ class dnamap(commands):
   name = "map"
   point = "DNA"
   def MainFunc(target):
-    a = getattr(nouns[target], "dnamap_return"_
+    a = getattr(nouns[target], "dnamap_return")
     a()
 class exit(commands):
   name = "exit"
@@ -136,12 +136,12 @@ class exit(commands):
   def MainFunc(target):
     sys.exit()
 
-commands = {"poke":poke, "watch":watch, "microscope":microscope, "timelapse":timelapse, "check":checkwaste, "map":dnamap, "exit":exit
+commands = {"poke":poke, "watch":watch, "microscope":microscope, "timelapse":timelapse, "check":checkwaste, "map":dnamap, "exit":exit}
 
-print ("There is a porcupine, a tree, a rock, and some weird thing.")
+print("There is a porcupine, a tree, a rock, and some weird thing.")
 print(" ")
 print("You can do these commands: ")
-print ("Poke:Movement")
+print("Poke:Movement")
 print("Watch:Intake")
 print("Microscope:Cells")
 print("Timelapse:Growth")
