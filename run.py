@@ -1,6 +1,6 @@
 import webbrowser, sys
 
-class stuff(Object):
+class stuff:
   name = "null"
   def poke_return():
     pass
@@ -87,7 +87,7 @@ class rock(stuff):
 
 nouns = {"porcupine":porcup, "tree":tree, "thing":myster, "rock":rock}
 
-class commands(Object):
+class commands:
   name = "null"
   point = "null"
   allows_articles = 0
